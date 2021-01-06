@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<info xmlns:xsi= "http://www.w3.org/2001/XMLSchema-instance"
+	  xsi:noNamespaceSchemaLocation="https://apps.nextcloud.com/schema/apps/info.xsd">
+	<id>rust_ffi</id>
+	<name>Rust FFI</name>
+	<summary>Rust FFI Demo</summary>
+	<description>Demonstrate the usage of Rust in a Nextcloud app</description>
+	<version>0.1.0</version>
+	<licence>agpl</licence>
+	<author>Christoph Wurst</author>
+	<namespace>RustFfi</namespace>
+	<category>integration</category>
+	<dependencies>
+		<php min-version="7.4" max-version="7.4" />
+		<nextcloud min-version="21" max-version="21" />
+	</dependencies>
+	<commands>
+		<command>OCA\RustFfi\Command\TestCommand</command>
+	</commands>
+</info>
