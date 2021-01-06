@@ -1,0 +1,15 @@
+{
+    "name": "christophwurst/rust_ffi",
+	"description": "",
+	"type": "library",
+    "require": {
+        "ext-ffi": "*"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Christoph Wurst",
+            "email": "christoph@winzerhof-wurst.at"
+        }
+    ]
+}
